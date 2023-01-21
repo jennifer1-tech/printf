@@ -1,4 +1,10 @@
-#nclude "main.h"
+#include "main.h"
+
+/**
+* print_buffer - entry point for buffer
+* @buffer: take the array parameter
+* @buff_ind: define the buffer to pointer
+*/
 
 void print_buffer(char buffer[], int *buff_ind);
 
