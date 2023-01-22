@@ -9,14 +9,8 @@ void print_buffer(char buffer[], int *buff_ind);
  */
 int _printf(const char *format, ...)
 {
-<<<<<<< HEAD
 	int i, printed = 0, printed_chars = 0;
 	int flags, width, precision, size, buff_ind = 0;
-=======
-int i, printed = 0, printed_chars = 0;
-int flags, width, precision, size, buff_ind = 0;
-	
->>>>>>> 157035cf1a4aab9f762265054ae213b392c5e6e7
 	va_list list;
 	char buffer[BUFF_SIZE];
 
@@ -70,3 +64,4 @@ void print_buffer(char buffer[], int *buff_ind)
 
 	*buff_ind = 0;
 }
+
